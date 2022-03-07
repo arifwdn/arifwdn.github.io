@@ -16,11 +16,11 @@ while(kesempatan >= 1){
 		hasil = (p<comp) ? 'SALAH! Terlalu rendah! \n Sisa Kesempatan = ' + sisa : 'SALAH! Terlalu tinggi! \n Sisa Kesempatan = ' + sisa; 
 	}
     
-    alert("TEBAKAN ANDA " + hasil +  "\n Pilihan anda adalah " + p + " dan Pilihan Komputer adalah " + comp);
+    alert("TEBAKAN ANDA " + hasil);
     kesempatan--;
 }
 
-alert("Game Selesai, Terima Kasih!");
+alert("Tebakan anda adalah " + p + " dan Pilihan Komputer adalah " + comp + "\n Game Selesai, Terima Kasih!");
 
 function refresh(){
   location.reload();
