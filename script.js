@@ -21,3 +21,7 @@ while(kesempatan >= 1){
 }
 
 alert("Game Selesai, Terima Kasih!");
+
+function refresh(){
+location.reload()
+}
