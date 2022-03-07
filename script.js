@@ -9,14 +9,14 @@ while(kesempatan >= 1){
     var hasil = '';
 
 	if(p==comp){
-		hasil = 'BENAR! \n Pilihan anda adalah ' + p + ' dan Pilihan Komputer adalah ' + comp;
-        kesempatan = 1;
+		hasil = 'BENAR!;
+        	kesempatan = 1;
 	}else{
 		var sisa = kesempatan-1;
 		hasil = (p<comp) ? 'SALAH! Terlalu rendah! \n Sisa Kesempatan = ' + sisa : 'SALAH! Terlalu tinggi! \n Sisa Kesempatan = ' + sisa; 
 	}
     
-    alert("TEBAKAN ANDA " + hasil);
+    alert("TEBAKAN ANDA " + hasil +  "\n Pilihan anda adalah " + p + " dan Pilihan Komputer adalah " + comp);
     kesempatan--;
 }
 
