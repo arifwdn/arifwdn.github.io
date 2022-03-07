@@ -9,7 +9,7 @@ while(kesempatan >= 1){
     var hasil = '';
 
 	if(p==comp){
-		hasil = 'BENAR!;
+		hasil = 'BENAR!';
         	kesempatan = 1;
 	}else{
 		var sisa = kesempatan-1;
