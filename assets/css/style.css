@@ -9,6 +9,10 @@
     background: yellow;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 html,
 body {
     width: 100vw;
@@ -49,6 +53,7 @@ h2 {
     overflow-x: scroll;
     /* background-color: #FDF3F3; */
     display: flex;
+    scroll-behavior: smooth;
 }
 
 .page {
